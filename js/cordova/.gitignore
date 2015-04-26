@@ -1,13 +1,6 @@
-*.user
+pkg/
+tags
 .DS_Store
-bld
-*.opensdf
-*.suo
-*.sdf
-Debug
-obj
-Thumbs.db
-
-# Skip node_modules
-
 node_modules/
+.gitkeep
+coverage/

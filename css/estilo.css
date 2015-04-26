@@ -1,0 +1,106 @@
+  body {
+        padding-top: 40px;
+        line-height: 1.6;
+        padding-bottom: 40px;
+        background-color: #eee;
+        background-image: url("../img/imc-bg.jpg"); 
+      }
+      .jumbotron {
+        max-width: 440px;
+        padding: 15px;
+        margin: 0 auto;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.4);
+        
+        
+        
+      }
+      .form-signin .form-signin-heading, .form-signin .checkbox {
+        margin-bottom: 10px;
+      }
+      .form-signin .checkbox {
+        font-weight: normal;
+      }
+
+    .form-signin-heading {
+        color: #eee;
+    }
+      .form-signin .form-control {
+        position: relative;
+        font-size: 16px;
+        height: auto;
+        padding: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      .form-signin .form-control:focus {
+        z-index: 2;
+      }
+      .form-signin input[type="number"] {
+        margin-bottom: -1px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+
+.btn {
+    background-color: #999999;
+	color: white;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0.5em 1em;
+    margin-left: 10px;
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+
+.btn:hover {
+    color: #eee;
+}
+
+/*Criando efeitos no botÃ£o*/
+.btn-shadow {
+box-shadow: 1px 1px 1px #999;
+}
+ 
+.btn-rc {
+border-radius: 4px;
+}
+
+/*Cores nos botoes*/
+.btn-primary {
+color: #fff;
+background-color: #0068B4;
+}
+ 
+.btn-success {
+color: #fff;
+background-color: #009835;
+}
+ 
+.btn-error {
+color: #fff;
+background-color: #CC0000;
+}
+ 
+.btn-warning{
+color: #fff;
+background-color: #F28E00;
+}
+
+footer {
+    color: white;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: #0f0f0f;
+    text-decoration: none;
+}
